@@ -5,18 +5,14 @@ public class Main {
 
     public static ArrayList<String> getNames(ArrayList<String> names, int number) {
         ArrayList<String> namesList = new ArrayList<>();
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter the count of names you want to enter: ");
-        int nameCount = input.nextInt();
         for(String n : names) {
-            if(names.size() == number) {
+            if(namesList.size() < number) {
                 namesList.add(n);
             }
 
         }
         return namesList;
     }
-
     public static void main(String[] args) {
 
 
