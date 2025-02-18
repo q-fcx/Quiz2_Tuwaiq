@@ -10,7 +10,7 @@ public class Main {
         int nameCount = input.nextInt();
         for(String n : names) {
             if(names.size() == number) {
-                names.add(n);
+                namesList.add(n);
             }
 
         }
